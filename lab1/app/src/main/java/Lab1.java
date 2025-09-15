@@ -1,6 +1,6 @@
-package lab1;
+package lab1.app.src.main.java;
 
-public class Main {
+public class Lab1 {
 
     public static void main(String[] args) {
         byte[][] matrixA = {
