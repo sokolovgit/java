@@ -68,14 +68,15 @@ public class Main {
     private static int sumColumnMins(byte[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;
-        int [] colMins = new int[cols];
+        int sum = 0;
 
         for (int j = 0; j < cols; j++) {
             int min = Integer.MAX_VALUE;
             for (int i = 0; i < rows; i++) {
-                colMins[j] = Math.min(colMins[j], matrix[i][j]);
+                min = Math.min(min, matrix[i][j]);
             }
+            sum += min;
         }
-        return Array.stream(colMins).sum();
+        return sum;
     }
 }
