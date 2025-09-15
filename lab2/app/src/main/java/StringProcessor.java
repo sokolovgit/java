@@ -9,6 +9,16 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Processes the given text and prints unique words in alphabetical order,
+ * grouped by their first letter.
+ *
+ * The input text is expected to be of type {@code String}.
+ * Words are considered unique based on their exact spelling and case.
+ * The output displays each unique word, sorted alphabetically,
+ * and organized by the initial character of each word.
+ */
+
 public class StringProcessor {
     public static void main(String[] args) {
         try {

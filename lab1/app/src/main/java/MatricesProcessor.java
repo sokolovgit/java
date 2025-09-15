@@ -1,5 +1,34 @@
 package lab1.app.src.main.java;
 
+/**
+ * The {@code MatricesProcessor} class provides static methods to perform
+ * operations on matrices of type {@code byte}.
+ * <p>
+ * Functionality includes:
+ * <ul>
+ * <li>Adding two matrices of the same dimensions.</li>
+ * <li>Printing matrices with labels.</li>
+ * <li>Computing the sum of the smallest elements in each column of a
+ * matrix.</li>
+ * </ul>
+ * <p>
+ * The main method demonstrates these operations using sample matrices.
+ * <p>
+ * <b>Matrix operation:</b> C = A + B<br>
+ * <b>Element type:</b> byte<br>
+ * <b>Additional computation:</b> Sum of smallest elements of each column of C
+ * </p>
+ *
+ * <p>
+ * Exceptions are thrown if:
+ * <ul>
+ * <li>The input matrices do not have the same dimensions.</li>
+ * <li>Overflow occurs during matrix addition.</li>
+ * </ul>
+ * </p>
+ *
+ * @author qwertannov
+ */
 public class MatricesProcessor {
 
     public static void main(String[] args) {
